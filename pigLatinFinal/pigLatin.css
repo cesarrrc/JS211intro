@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(246, 129, 246);
+}
+/* font-family: 'Josefin Slab', serif;
+font-family: 'Patrick Hand', cursive; */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+}
+
+.header_icon {
+  height: 200px;
+}
+
+
+.text-input {
+  width : 100%;
+  resize: none;
+  padding: 10px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.text-output {
+  background-color: rgb(246, 129, 246);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  /* letter-spacing: 1px; */
+  word-spacing: 20px;
+}
